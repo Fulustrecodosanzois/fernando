@@ -490,7 +490,7 @@ ol {
 }
 
 .site-logo img {
-    max-width: 100%;
+    max-width: 25%;
     height: auto;
     display: block;
     margin: 0 auto;
@@ -508,7 +508,7 @@ ol {
 }
 
 .header-controls button.nav-switch-btn {
-	font-size: 21px;
+	font-size: 50px;
 	margin-right: 25px;
 }
 
@@ -572,12 +572,7 @@ ol {
 	margin-top: 0;
 }
 
-.search-mobile button {
-	background: transparent;
-	border: none;
-	color: #fff;
-	padding: 15px;
-}
+
 
 /*------------------
   Hero section
