@@ -657,7 +657,7 @@ ol {
 ---------------------*/
 
 .intro-section {
-	padding: 100px 30px 10px;
+	padding: 100px 30px 1px;
 }
 
 .intro-warp {
@@ -746,8 +746,8 @@ ol {
 }
 
 .copyright {
-	color: #f2f521;
-	font-size: 11px;
+	color: #ffffff;
+	font-size: 15px;
 	font-weight: 500;
 	padding: 4px 0;
 	margin-bottom: 25px;
@@ -759,7 +759,7 @@ ol {
 
 .footer-social-links a {
 	display: inline-block;
-	color: #f2f521;
+	color: #ffffff;
 	font-size: 30px;
 	margin-left: 40px;
 }
@@ -848,9 +848,7 @@ ol {
   Portfolio page 1
 ---------------------*/
 
-.portfolio-section {
-	padding-top: 120px;
-}
+
 
 .portfolio-filter {
 	list-style: none;
@@ -1340,6 +1338,7 @@ ol {
 	.hero-social-links a {
 		display: inline-block;
 		padding: 5px 10px;
+		color: #000;
 	}
 
 	.map {
