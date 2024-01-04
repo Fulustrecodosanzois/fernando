@@ -1089,6 +1089,7 @@ ol {
 	.site-logo {
 		padding-left: 15px;
 	}
+	
 
 	.main-menu li a {
 		margin-right: 15px;
@@ -1125,6 +1126,10 @@ ol {
 	.header-section {
 		text-align: center;
 		padding-bottom: 0;
+	}
+
+	.hero-slider {
+		overflow: scroll;
 	}
 
 	.site-logo {
@@ -1189,6 +1194,10 @@ ol {
 	.header-section {
 		text-align: center;
 		padding-bottom: 0;
+	}
+
+	.hero-slider {
+		overflow: scroll;
 	}
 
 	.site-logo {
@@ -1344,6 +1353,10 @@ ol {
 	.map {
 		height: 400px;
 	}
+
+	.hero-slider {
+		overflow: scroll;
+	}
 }
 
 /*  ------------ borda das letras */
@@ -1361,3 +1374,4 @@ ol {
 .texto-amarelo {
 	color: #f2f521;
 }
+
