@@ -67,7 +67,7 @@ p {
 
 img {
 	max-width: 100%;
-	
+
 }
 
 input:focus,
@@ -490,6 +490,8 @@ ol {
 	padding-left: 80px;
 	align-content: center;
 	filter: invert(100%);
+
+	
 }
 
 .site-logo img {
@@ -655,7 +657,7 @@ ol {
 ---------------------*/
 
 .intro-section {
-	padding: 120px 15px 90px;
+	padding: 100px 30px 10px;
 }
 
 .intro-warp {
@@ -666,11 +668,12 @@ ol {
 
 .intro-text h2 {
 	font-size: 48px;
-	margin-bottom: 25px;
+	margin-bottom: 50px;
+
 }
 
 .intro-text p {
-	margin-bottom: 45px;
+	margin-bottom: 15px;
 }
 
 .sp-link {
@@ -689,6 +692,7 @@ ol {
 .skill-warp {
 	padding-left: 83px;
 	padding-top: 80px;
+	margin-bottom: 70px;
 }
 
 .single-progress-item {
@@ -716,7 +720,7 @@ ol {
 	height: 100%;
 	left: 0;
 	top: 0;
-	background: #212121;
+	background: #f2f521;
 }
 
 .progress-bar-style .bar-inner span {
@@ -726,10 +730,10 @@ ol {
 	right: 0;
 	top: 22px;
 	padding-top: 8px;
-	color: #fff;
+	color: #454545;
 	font-weight: 400;
 	text-align: center;
-	background: #212121;
+	background: #f2f521;
 }
 
 /*------------------
@@ -738,14 +742,15 @@ ol {
 
 .footer-section {
 	background: #212121;
-	padding: 19px 40px;
+	padding: 5px 5px;
 }
 
 .copyright {
-	color: #fff;
+	color: #f2f521;
 	font-size: 11px;
 	font-weight: 500;
 	padding: 4px 0;
+	margin-bottom: 25px;
 }
 
 .footer-social-links {
@@ -754,8 +759,8 @@ ol {
 
 .footer-social-links a {
 	display: inline-block;
-	color: #fff;
-	font-size: 17px;
+	color: #f2f521;
+	font-size: 30px;
 	margin-left: 40px;
 }
 
@@ -1176,7 +1181,7 @@ ol {
 
 	.contact-text {
 		margin-bottom: 50px;
-		
+
 	}
 }
 
@@ -1340,4 +1345,13 @@ ol {
 	.map {
 		height: 400px;
 	}
+}
+
+/*  ------------ borda das letras */
+
+.borda-texto {
+	font: 30px;
+	color: #000;
+	-webkit-text-stroke-width: 1px;
+	-webkit-text-stroke-color: rgb(255, 255, 255);
 }
