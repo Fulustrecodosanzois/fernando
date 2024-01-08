@@ -1,0 +1,16 @@
+/* Estilos para esconder a introdução */
+.hidden {
+    display: none;
+}
+
+/* Estilos para o logo e a introdução */
+#intro {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #ffffff;
+    padding: 20px;
+    text-align: center;
+    border: 2px solid #000000;
+}
