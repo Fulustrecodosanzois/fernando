@@ -8,7 +8,7 @@ document.addEventListener("DOMContentLoaded", function () {
         event.preventDefault();
 
         const nome = document.getElementById("nome").value;
-        const telefone = document.getElementById("telefone").value;
+        let telefone = document.getElementById("telefone").value;
         const mensagem = document.getElementById("mensagem").value;
 
         let camposFaltando = [];
@@ -16,9 +16,13 @@ document.addEventListener("DOMContentLoaded", function () {
         if (nome.trim() === '') {
             camposFaltando.push('Nome');
         }
-        if (telefone.trim() === '') {
-            camposFaltando.push('Telefone');
+        
+        // Verificação do campo de telefone para garantir no mínimo 11 dígitos
+        telefone = telefone.replace(/\D/g, ''); // Remove caracteres não numéricos
+        if (telefone.length < 11) {
+            camposFaltando.push('Telefone com no mínimo 11 números');
         }
+
         if (mensagem.trim() === '') {
             camposFaltando.push('Mensagem');
         }
