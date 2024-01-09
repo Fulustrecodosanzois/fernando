@@ -31,7 +31,7 @@ document.addEventListener("DOMContentLoaded", function () {
         }
 
         const mensagemFormatada = `Olá!!!%0A%0A**Informações do Contato**%0A%0A*Nome:* ${nome}%0A%0A*Telefone:* ${telefone}%0A%0A*Mensagem:*%0A%0A${mensagem}`;
-        const numeroWhatsApp = "5598987189453";
+        const numeroWhatsApp = "5598996114549";
         const urlWhatsApp = `https://wa.me/${numeroWhatsApp}?text=${mensagemFormatada}`;
 
         window.open(urlWhatsApp);
