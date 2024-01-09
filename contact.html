@@ -10,7 +10,7 @@
 
 	<!-- Favicon -->
 
-	<link href="img/logo.png" rel="shortcut icon"/>
+	<link href="img/logo.png" rel="shortcut icon" />
 
 	<!-- Google font -->
 
@@ -78,26 +78,26 @@
 						<p class="text-white">Preencha o formulário abaixo para entrar em contato conosco. Estamos à
 							disposição para ajudar!</p>
 						<ul>
-							<li class="text-white">Rua tal <br>Pará - Brasi</li>
+							<li class="text-white">Rua tal <br>Pará - Brasil</li>
 							<li class="text-white">+55 89 9 9999 9999</li>
 							<li class="text-white">contact@teste.com</li>
 						</ul>
 					</div>
 				</div>
 				<div class="col-lg-8">
-					<form class="contact-form">
+					<form class="contact-form formulario">
 						<div class="row">
 							<div class="col-lg-6">
-								<input type="text" placeholder="Seu Name">
+								<input type="text" placeholder="Seu Name" id="nome">
 							</div>
 							<div class="col-lg-6">
-								<input type="number" placeholder="Seu Telefone">
+								<input type="text" placeholder="Seu Telefone" id="telefone" inputmode="numeric">
 							</div>
 							<div class="col-lg-4">
 							</div>
 							<div class="col-lg-12">
-								<textarea class="text-msg" placeholder="Mensagem"></textarea>
-								<button class="site-btn " type="submit">Enviar</button>
+								<textarea class="text-msg" placeholder="Mensagem" id="mensagem"></textarea>
+								<button class="site-btn" type="submit">Enviar</button>
 							</div>
 						</div>
 					</form>
@@ -133,6 +133,8 @@
 
 	<!--====== Javascripts - Jquery ======-->
 
+	<script src="js/tel.js"></script>
+	<script src="js/script.js"></script>
 	<script src="js/jquery-3.2.1.min.js"></script>
 	<script src="js/bootstrap.min.js"></script>
 	<script src="js/jquery.slicknav.min.js"></script>
