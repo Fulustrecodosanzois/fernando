@@ -1006,7 +1006,7 @@ ol {
 }
 
 .contact-section {
-	padding: 120px 0;
+	
 }
 
 .contact-text h3 {
@@ -1014,7 +1014,7 @@ ol {
 }
 
 .contact-text p {
-	margin-bottom: 45px;
+
 }
 
 .contact-text ul {
@@ -1030,6 +1030,7 @@ ol {
 
 .contact-form {
 	padding-top: 20px;
+	margin-bottom: 50px;
 }
 
 .contact-form input,
@@ -1039,16 +1040,17 @@ ol {
 	font-weight: 800;
 	color: #ffffff;
 	border: none;
-	border-bottom: 1px solid #b2b2b2;
+	border-bottom: 1px solid #ffffff;
 	padding-bottom: 14px;
-	margin-bottom: 20px;
+
 	background: transparent;
 }
 
 .contact-form textarea {
 	height: 165px;
 	min-height: 165px;
-	margin-bottom: 38px;
+	
+	
 }
 
 .text-msg::-webkit-input-placeholder {
